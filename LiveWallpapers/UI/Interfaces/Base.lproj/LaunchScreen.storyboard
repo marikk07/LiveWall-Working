@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="2ut-3B-CyA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kru-RH-qkO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="406"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="90y-vB-qnw">
+                                        <rect key="frame" x="119" y="118.66666666666667" width="169" height="168.66666666666663"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="90y-vB-qnw" secondAttribute="height" multiplier="1:1" id="ouW-le-P0A"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LiveWall" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NpS-jZ-Xs7">
+                                        <rect key="frame" x="135.33333333333334" y="295.33333333333331" width="104.66666666666666" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="28"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="90y-vB-qnw" firstAttribute="width" secondItem="kru-RH-qkO" secondAttribute="width" multiplier="0.45" id="8RX-Lf-48f"/>
+                                    <constraint firstItem="90y-vB-qnw" firstAttribute="centerY" secondItem="kru-RH-qkO" secondAttribute="centerY" id="DuT-FD-a5y"/>
+                                    <constraint firstItem="NpS-jZ-Xs7" firstAttribute="top" secondItem="90y-vB-qnw" secondAttribute="bottom" constant="8" id="Pwi-9u-DLC"/>
+                                    <constraint firstItem="90y-vB-qnw" firstAttribute="centerX" secondItem="kru-RH-qkO" secondAttribute="centerX" constant="16" id="ePK-qk-xCr"/>
+                                    <constraint firstItem="NpS-jZ-Xs7" firstAttribute="centerX" secondItem="kru-RH-qkO" secondAttribute="centerX" id="ji3-Hj-ya3"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ncv-zU-m9O">
+                                <rect key="frame" x="0.0" y="406" width="375" height="406"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ncv-zU-m9O" firstAttribute="top" secondItem="kru-RH-qkO" secondAttribute="bottom" id="4Q6-pJ-aAt"/>
+                            <constraint firstItem="2ut-3B-CyA" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="7d9-Ga-O7H"/>
+                            <constraint firstAttribute="trailing" secondItem="ncv-zU-m9O" secondAttribute="trailing" id="Btd-Nk-ezf"/>
+                            <constraint firstItem="kru-RH-qkO" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Ei1-cf-jKa"/>
+                            <constraint firstItem="kru-RH-qkO" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="KBe-zp-IuM"/>
+                            <constraint firstItem="2ut-3B-CyA" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="QOp-bX-ocU"/>
+                            <constraint firstAttribute="bottom" secondItem="2ut-3B-CyA" secondAttribute="bottom" id="XSR-1U-noX"/>
+                            <constraint firstAttribute="trailing" secondItem="kru-RH-qkO" secondAttribute="trailing" id="esz-mR-syh"/>
+                            <constraint firstAttribute="trailing" secondItem="2ut-3B-CyA" secondAttribute="trailing" id="ff0-RK-7EB"/>
+                            <constraint firstItem="ncv-zU-m9O" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="nf5-Lo-Ywz"/>
+                            <constraint firstAttribute="bottom" secondItem="ncv-zU-m9O" secondAttribute="bottom" id="pfK-kC-xoc"/>
+                            <constraint firstItem="ncv-zU-m9O" firstAttribute="height" secondItem="kru-RH-qkO" secondAttribute="height" id="wHb-zO-wnC"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.6305418719212"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="208" height="157"/>
+        <image name="background" width="781.66668701171875" height="1692"/>
+    </resources>
+</document>

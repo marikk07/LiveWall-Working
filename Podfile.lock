@@ -1,0 +1,24 @@
+PODS:
+  - AWSCore (2.6.28)
+  - AWSS3 (2.6.28):
+    - AWSCore (= 2.6.28)
+  - ScalingCarousel (2.3)
+
+DEPENDENCIES:
+  - AWSS3
+  - ScalingCarousel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AWSCore
+    - AWSS3
+    - ScalingCarousel
+
+SPEC CHECKSUMS:
+  AWSCore: f75fcf5b2f4325da49ae1f7cb5484778d3b0acc6
+  AWSS3: ca0ba62719281d7a39e50bbd0c6b8ef6e11943c9
+  ScalingCarousel: ee866c34c01b784b6edf9009f12ea73935517e3e
+
+PODFILE CHECKSUM: 23e69942726d8cf0b8558e8c76d3463a12ef0dc9
+
+COCOAPODS: 1.5.3

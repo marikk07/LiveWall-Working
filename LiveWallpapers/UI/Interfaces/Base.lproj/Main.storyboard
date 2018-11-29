@@ -575,13 +575,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="3-DAY FREE TRIAL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="RHm-vf-xVp">
-                                                    <rect key="frame" x="0.0" y="0.0" width="327" height="57.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="327" height="69.5"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="39"/>
                                                     <color key="textColor" red="0.0" green="0.74901960779999999" blue="0.64705882349999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="then $7.99 per week" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="heE-X7-bec">
-                                                    <rect key="frame" x="0.0" y="57.5" width="123.5" height="16"/>
+                                                    <rect key="frame" x="0.0" y="69.5" width="123.5" height="16"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -736,8 +736,8 @@
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$7.99" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNA-gq-vvC">
-                                                            <rect key="frame" x="259" y="19.5" width="52" height="24"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$19.99" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNA-gq-vvC">
+                                                            <rect key="frame" x="247" y="19.5" width="64" height="24"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
@@ -844,7 +844,7 @@
                                                 <constraint firstAttribute="bottom" secondItem="e5H-2a-dRn" secondAttribute="bottom" constant="24" id="im1-TD-rT6"/>
                                                 <constraint firstItem="RHm-vf-xVp" firstAttribute="top" secondItem="Gyy-C9-bZj" secondAttribute="top" id="jIA-Eh-XGo"/>
                                                 <constraint firstItem="e5H-2a-dRn" firstAttribute="top" secondItem="QmZ-tk-UtM" secondAttribute="bottom" constant="24" id="lyQ-t0-koM"/>
-                                                <constraint firstItem="CCw-bl-VKH" firstAttribute="top" secondItem="heE-X7-bec" secondAttribute="bottom" constant="32" id="ovd-94-snR"/>
+                                                <constraint firstItem="CCw-bl-VKH" firstAttribute="top" secondItem="heE-X7-bec" secondAttribute="bottom" constant="20" id="ovd-94-snR"/>
                                                 <constraint firstItem="aFI-aG-xHM" firstAttribute="top" secondItem="cdu-pu-bEB" secondAttribute="bottom" constant="-12" id="ria-gp-Kby"/>
                                                 <constraint firstItem="cdu-pu-bEB" firstAttribute="top" secondItem="CCw-bl-VKH" secondAttribute="bottom" constant="32" id="s7u-ch-Tuq"/>
                                             </constraints>
@@ -906,7 +906,7 @@
                                         <rect key="frame" x="0.0" y="760" width="327" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZH4-d7-aUQ" id="BeJ-e0-TnG">
-                                            <rect key="frame" x="0.0" y="0.0" width="327" height="45.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="327" height="46"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cpu-o8-Pyr">
@@ -1104,7 +1104,11 @@
                     </tableView>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <connections>
+                        <outlet property="monthButtonPrice" destination="PNA-gq-vvC" id="RKZ-1x-eJr"/>
+                        <outlet property="priceAsLowLabel" destination="2jO-p6-w9M" id="rRl-dz-ccM"/>
+                        <outlet property="priceWeekLabel" destination="heE-X7-bec" id="74H-bq-Pdh"/>
                         <outlet property="weekView" destination="QmZ-tk-UtM" id="iWw-PV-34g"/>
+                        <outlet property="yearButtonPrice" destination="rs1-QH-UhE" id="scj-YM-Wmx"/>
                         <outlet property="yearView" destination="e5H-2a-dRn" id="38R-dV-XbS"/>
                     </connections>
                 </tableViewController>

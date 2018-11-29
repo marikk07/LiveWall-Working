@@ -24,12 +24,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         #else
   
 
-//        let isSubscribed = UserDefaults.standard.bool(forKey: Constants.UDsubscriptionEnable)
+        let isSubscribed = UserDefaults.standard.bool(forKey: Constants.UDsubscriptionEnable)
         
-//        if isSubscribed {
-//            ShopManager.sharedInstance.showMainScreen()
-//            ShopManager.sharedInstance.completePurchase()
-//        }
+        if isSubscribed {
+            ShopManager.sharedInstance.showMainScreen()
+            ShopManager.sharedInstance.completePurchase()
+        }
         
         #endif
         return true

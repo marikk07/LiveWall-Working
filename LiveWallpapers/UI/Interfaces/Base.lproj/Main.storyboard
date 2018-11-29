@@ -913,7 +913,7 @@
                                         <rect key="frame" x="0.0" y="760" width="327" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZH4-d7-aUQ" id="BeJ-e0-TnG">
-                                            <rect key="frame" x="0.0" y="0.0" width="327" height="45.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="327" height="46"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cpu-o8-Pyr">
@@ -952,7 +952,7 @@
                                         <rect key="frame" x="0.0" y="806" width="327" height="36"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="68s-V1-VA6" id="jVN-Xo-sbm">
-                                            <rect key="frame" x="0.0" y="0.0" width="327" height="35.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="327" height="36"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gdh-nt-LaQ">
@@ -1452,9 +1452,9 @@
         <image name="trial_shadow" width="785.5" height="454"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="km2-Vt-gEm"/>
+        <segue reference="NRJ-4P-5cG"/>
         <segue reference="PXQ-mt-7FX"/>
-        <segue reference="Mdq-JF-RqS"/>
+        <segue reference="8Td-Pm-8Da"/>
         <segue reference="Jdx-xe-SGm"/>
     </inferredMetricsTieBreakers>
 </document>

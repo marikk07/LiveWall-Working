@@ -8,5 +8,6 @@ target 'LiveWallpapers' do
   # Pods for LiveWallpapers
   pod 'AWSS3'
   pod 'ScalingCarousel'
+  pod 'SwiftVideoBackground', '~> 3.0'
   
 end

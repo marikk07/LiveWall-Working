@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		24D8C0ABEB7C788D1D7EE846 /* Pods_LiveWallpapers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B51D1A27108AECF797932EA5 /* Pods_LiveWallpapers.framework */; };
+		953B6BBF21B02853000E0350 /* LW92.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 953B6BBE21B02853000E0350 /* LW92.MOV */; };
 		D36F7B7A1F01AD3D008EABB8 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36F7B791F01AD3D008EABB8 /* CollectionViewController.swift */; };
 		D36F7B7C1F01AE72008EABB8 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36F7B7B1F01AE72008EABB8 /* CollectionViewCell.swift */; };
 		D377257D1EF64A6600A9180B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D377257C1EF64A6600A9180B /* Config.swift */; };
@@ -406,6 +407,7 @@
 
 /* Begin PBXFileReference section */
 		12AC8B27D80D7E708694AAD4 /* Pods-LiveWallpapers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveWallpapers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiveWallpapers/Pods-LiveWallpapers.debug.xcconfig"; sourceTree = "<group>"; };
+		953B6BBE21B02853000E0350 /* LW92.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = LW92.MOV; sourceTree = "<group>"; };
 		B51D1A27108AECF797932EA5 /* Pods_LiveWallpapers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiveWallpapers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D36F7B791F01AD3D008EABB8 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		D36F7B7B1F01AE72008EABB8 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
@@ -1314,6 +1316,7 @@
 		F59F4C7C2152DD0300501B58 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				953B6BBE21B02853000E0350 /* LW92.MOV */,
 				D383B75C1E6F5F5A0047FBA1 /* Info.plist */,
 			);
 			path = "Supporting Files";
@@ -1701,6 +1704,7 @@
 				F577F4492182266100277865 /* LW30.JPG in Resources */,
 				F577F4A02182266100277865 /* LW116.JPG in Resources */,
 				F577F47E2182266100277865 /* LW148.JPG in Resources */,
+				953B6BBF21B02853000E0350 /* LW92.MOV in Resources */,
 				F577F4852182266100277865 /* LW199.JPG in Resources */,
 				F577F3D32182266100277865 /* LW285.JPG in Resources */,
 				F577F4892182266100277865 /* LW60.JPG in Resources */,
@@ -1982,12 +1986,14 @@
 				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
 				"${BUILT_PRODUCTS_DIR}/ScalingCarousel/ScalingCarousel.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftVideoBackground/SwiftVideoBackground.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScalingCarousel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftVideoBackground.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

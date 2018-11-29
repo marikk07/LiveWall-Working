@@ -3,22 +3,26 @@ PODS:
   - AWSS3 (2.6.28):
     - AWSCore (= 2.6.28)
   - ScalingCarousel (2.3)
+  - SwiftVideoBackground (3.1.0)
 
 DEPENDENCIES:
   - AWSS3
   - ScalingCarousel
+  - SwiftVideoBackground (~> 3.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AWSCore
     - AWSS3
     - ScalingCarousel
+    - SwiftVideoBackground
 
 SPEC CHECKSUMS:
   AWSCore: f75fcf5b2f4325da49ae1f7cb5484778d3b0acc6
   AWSS3: ca0ba62719281d7a39e50bbd0c6b8ef6e11943c9
   ScalingCarousel: ee866c34c01b784b6edf9009f12ea73935517e3e
+  SwiftVideoBackground: 628408dbd5eb20b5f82f394aac9615d29aecb2f6
 
-PODFILE CHECKSUM: 23e69942726d8cf0b8558e8c76d3463a12ef0dc9
+PODFILE CHECKSUM: f6e8684148a052dfaf4625774bbc326636041840
 
 COCOAPODS: 1.5.3

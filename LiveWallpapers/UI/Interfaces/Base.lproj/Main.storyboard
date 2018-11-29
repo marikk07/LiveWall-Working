@@ -506,9 +506,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Ahe-Ry-7Kw">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBI-3b-qIu">
                                 <rect key="frame" x="16" y="36" width="24" height="24"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.087246919010000007" colorSpace="calibratedRGB"/>
@@ -539,14 +536,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Ahe-Ry-7Kw" firstAttribute="leading" secondItem="0XI-oD-oaU" secondAttribute="leading" id="0jV-Xp-hil"/>
                             <constraint firstAttribute="trailing" secondItem="keN-aU-UOP" secondAttribute="trailing" constant="24" id="1EW-6C-FCY"/>
                             <constraint firstAttribute="trailing" secondItem="IrW-77-mVJ" secondAttribute="trailing" constant="16" id="8t5-0g-Txa"/>
-                            <constraint firstItem="Ahe-Ry-7Kw" firstAttribute="top" secondItem="0XI-oD-oaU" secondAttribute="top" id="Eff-wI-evs"/>
-                            <constraint firstAttribute="trailing" secondItem="Ahe-Ry-7Kw" secondAttribute="trailing" id="TAb-wc-JzV"/>
                             <constraint firstItem="Vqi-o2-w4u" firstAttribute="top" secondItem="keN-aU-UOP" secondAttribute="bottom" id="WR5-m0-NsH"/>
                             <constraint firstItem="keN-aU-UOP" firstAttribute="top" secondItem="IrW-77-mVJ" secondAttribute="bottom" constant="16" id="dlg-FG-0vP"/>
-                            <constraint firstAttribute="bottom" secondItem="Ahe-Ry-7Kw" secondAttribute="bottom" id="e2h-Ig-x5q"/>
                             <constraint firstItem="mBI-3b-qIu" firstAttribute="leading" secondItem="0XI-oD-oaU" secondAttribute="leading" constant="16" id="hGu-xp-J84"/>
                             <constraint firstItem="IrW-77-mVJ" firstAttribute="centerY" secondItem="mBI-3b-qIu" secondAttribute="centerY" id="hOY-9u-Bhm"/>
                             <constraint firstItem="mBI-3b-qIu" firstAttribute="top" secondItem="CAI-4v-NeQ" secondAttribute="bottom" constant="16" id="iJb-Y3-bWo"/>
@@ -913,7 +906,7 @@
                                         <rect key="frame" x="0.0" y="760" width="327" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZH4-d7-aUQ" id="BeJ-e0-TnG">
-                                            <rect key="frame" x="0.0" y="0.0" width="327" height="46"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="327" height="45.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cpu-o8-Pyr">
@@ -952,7 +945,7 @@
                                         <rect key="frame" x="0.0" y="806" width="327" height="36"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="68s-V1-VA6" id="jVN-Xo-sbm">
-                                            <rect key="frame" x="0.0" y="0.0" width="327" height="36"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="327" height="35.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gdh-nt-LaQ">

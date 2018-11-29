@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftVideoBackground
 
 final class SubscriptionViewController: UIViewController {
     
@@ -18,6 +19,7 @@ final class SubscriptionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        try? VideoBackground.shared.play(view: view, videoName: "LW92", videoType: "MOV")
     }
 
     // MARK: - IBActions

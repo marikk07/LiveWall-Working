@@ -43,23 +43,32 @@ final class SubscriptionViewController: UIViewController {
     }
     
     func startOneMonthSubscription() {
-        ShopManager.sharedInstance.buySubscriptionWith(id: Constants.monthlySubscriptionID)
-        dismiss(animated: true) { [weak self] in
-            self?.didCompleteSubscription?()
+        ShopManager.sharedInstance.buySubscriptionWith(id: Constants.monthlySubscriptionID) { (result) in
+            if case .success( _) = result {
+                self.dismiss(animated: true) { [weak self] in
+                    self?.didCompleteSubscription?()
+                }
+            }
         }
     }
     
     func startOneYearSubscription() {
-        ShopManager.sharedInstance.buySubscriptionWith(id: Constants.yearlySubscriptionID)
-        dismiss(animated: true) { [weak self] in
-            self?.didCompleteSubscription?()
+        ShopManager.sharedInstance.buySubscriptionWith(id: Constants.yearlySubscriptionID) { (result) in
+            if case .success( _) = result {
+                self.dismiss(animated: true) { [weak self] in
+                    self?.didCompleteSubscription?()
+                }
+            }
         }
     }
     
     func startTrialSubscription() {
-        ShopManager.sharedInstance.buySubscriptionWith(id: Constants.subscriptionID)
-        dismiss(animated: true) { [weak self] in
-            self?.didCompleteSubscription?()
+        ShopManager.sharedInstance.buySubscriptionWith(id: Constants.subscriptionID) { (result) in
+            if case .success( _) = result {
+                self.dismiss(animated: true) { [weak self] in
+                    self?.didCompleteSubscription?()
+                }
+            }
         }
     }
     

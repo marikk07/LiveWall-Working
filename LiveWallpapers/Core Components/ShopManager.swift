@@ -89,7 +89,7 @@ class ShopManager {
         }
     }
     
-    func buySubscriptionWith(id: String) {
+    func buySubscriptionWith(id: String, completion: @escaping (PurchaseResult) -> Void) {
         ShopManager.sharedInstance.showActivityIndicator()
         
         SwiftyStoreKit.purchaseProduct(id) { (result) in
@@ -98,7 +98,6 @@ class ShopManager {
             
             if case .success(let purchase) = result {
                 //Purchased
-                
                 if purchase.needsFinishTransaction {
                     SwiftyStoreKit.finishTransaction(purchase.transaction)
                 }
@@ -110,9 +109,6 @@ class ShopManager {
                 }
                 
             }else{
-                DispatchQueue.main.async {
-                    self.showSubscriptionScreen()
-                }
                 ShopManager.sharedInstance.showAlert(title: "Error", message: "There is an error in the transaction. Please try again.")
             }
         }
